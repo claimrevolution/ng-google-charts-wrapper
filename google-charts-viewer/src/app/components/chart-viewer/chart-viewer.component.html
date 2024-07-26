@@ -1,0 +1,37 @@
+
+
+<google-column-chart
+  [chartData]="stackedChartData"
+  [chartTitle]="chartOptions.title"
+  [hAxisTitle]="chartOptions.hAxisTitle"
+  [vAxisTitle]="chartOptions.vAxisTitle"
+  [colors]="chartOptions.colors"
+  [isStacked]="true">
+</google-column-chart>
+
+<google-column-chart
+  [chartData]="normalChartData"
+  [chartTitle]="chartOptions.title"
+  [hAxisTitle]="chartOptions.hAxisTitle"
+  [vAxisTitle]="chartOptions.vAxisTitle"
+  [colors]="chartOptions.colors"
+  [isStacked]="false">
+</google-column-chart>
+
+<google-bar-chart
+  [chartData]="barChartData"
+  [chartTitle]="chartOptions.title"
+  [hAxisTitle]="chartOptions.hAxisTitle"
+  [vAxisTitle]="chartOptions.vAxisTitle"
+  [colors]="chartOptions.colors"
+  [isStacked]="true">
+</google-bar-chart>
+
+<google-column-chart
+  [chartData]="chartData"
+  [chartTitle]="chartOptions.title"
+  [hAxisTitle]="chartOptions.hAxisTitle"
+  [vAxisTitle]="chartOptions.vAxisTitle"
+  [colors]="chartOptions.colors"
+  [isStacked]="true">
+</google-column-chart>

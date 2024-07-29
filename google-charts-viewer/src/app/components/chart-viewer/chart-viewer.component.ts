@@ -67,6 +67,21 @@ export class ChartViewerComponent {
       { c: [{ v: 'Household 4' }, { v: 2 }, { v: 'color: #1f77b4' }, { v: '2 Dogs' }, { v: 2 }, { v: 'color: #ff7f0e' }, { v: '2 Cats' }] }
     ]
   };
+
+  pieChartData: ChartDataTable = {
+    cols: [
+      { label: 'Task', type: 'string' },
+      { label: 'Hours per Day', type: 'number' }
+    ],
+    rows: [
+      { c: [{ v: 'Work' }, { v: 8 }] },
+      { c: [{ v: 'Eat' }, { v: 2 }] },
+      { c: [{ v: 'Commute' }, { v: 2 }] },
+      { c: [{ v: 'Watch TV' }, { v: 3 }] },
+      { c: [{ v: 'Sleep' }, { v: 7, f: '7.000' }] }
+    ]
+  };
+  
   chartOptions = {
     title: this.title,
     hAxisTitle: 'Household',

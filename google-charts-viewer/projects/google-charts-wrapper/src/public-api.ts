@@ -8,3 +8,4 @@ export * from './lib/google-charts-wrapper.module';
 export * from './lib/interfaces/chart-interfaces';
 export * from './lib/components/column-chart/column-chart.component';
 export * from './lib/components/bar-chart/bar-chart.component';
+export * from './lib/components/pie-chart/pie-chart.component'

@@ -8,6 +8,10 @@
 
 # Node
 /node_modules
+/project/node_modules
+/google-charts-viewer/projects/google-charts-wrapper/node_module
+/projects/google-charts-wrapper/node_modules
+
 npm-debug.log
 yarn-error.log
 

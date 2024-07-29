@@ -1,0 +1,26 @@
+{
+  "name": "google-charts-wrapper",
+  "version": "0.0.1",
+  "description": "An Angular Wrapper for the Google Charts Library",
+  "main": "src/public-api.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claimrevolution/ng-google-charts-wrapper.git"
+  },
+  "keywords": [
+    "angular",
+    "google",
+    "charts",
+    "charts",
+    "analytics"
+  ],
+  "author": "Brad Sharp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claimrevolution/ng-google-charts-wrapper/issues"
+  },
+  "homepage": "https://github.com/claimrevolution/ng-google-charts-wrapper#readme"
+}

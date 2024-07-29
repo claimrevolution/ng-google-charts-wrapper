@@ -1,6 +1,6 @@
 {
   "name": "google-charts-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Angular Wrapper for the Google Charts Library",
   "main": "src/public-api.ts",
   "scripts": {
